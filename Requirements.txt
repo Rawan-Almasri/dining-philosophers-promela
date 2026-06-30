@@ -1,0 +1,51 @@
+🛠️ Requirements
+
+To run and verify this project, the following tools are required:
+
+- SPIN Model Checker
+Used for modeling and verifying concurrent systems.
+
+- Visual Studio Code (VS Code)
+Recommended editor for writing and managing Promela (.pml) files.
+
+- Promela Extension for VS Code (optional but recommended)
+Provides syntax highlighting and better readability for .pml files.
+
+
+📌 How to Install SPIN
+🐧 Linux (Ubuntu)
+Install SPIN using apt:
+sudo apt update
+sudo apt install spin
+Or build from source:
+https://spinroot.com/
+
+🪟 Windows
+
+There is no official native installer for SPIN on Windows, but you can use one of the following methods:
+
+Option 1: Using WSL (Recommended)
+Install Windows Subsystem for Linux (WSL)
+Open PowerShell as Administrator and run:
+wsl --install
+Install Ubuntu from Microsoft Store.
+Inside Ubuntu (WSL), install SPIN:
+sudo apt update
+sudo apt install spin
+
+Option 2: Using Cygwin / MinGW (Advanced)
+Install Cygwin or MinGW
+Compile SPIN manually from source:
+https://spinroot.com/spin/Src/
+
+
+
+💻 VS Code Setup
+To improve working with .pml files:
+
+Open VS Code
+Go to Extensions
+Search for: "Promela / SPIN support"
+Install an extension that supports:
+  Syntax highlighting
+  Code formatting (if available)
