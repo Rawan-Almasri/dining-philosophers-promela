@@ -1,0 +1,11 @@
+# SPIN / Promela generated files
+*.trail
+pan
+pan.* 
+*.tmp
+*.o
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
